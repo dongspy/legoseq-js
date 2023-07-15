@@ -1,5 +1,5 @@
 @import './style/reset.scss';
-@import '~antd/dist/antd.css';
+/* @import '~antd/dist/antd.css'; */
 #components-layout-demo-custom-trigger .trigger {
   padding: 0 24px;
   font-size: 18px;

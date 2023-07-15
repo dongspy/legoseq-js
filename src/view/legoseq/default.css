@@ -1,0 +1,20 @@
+.aa {
+    color: red;
+  }
+  
+  .bb {
+    color: green;
+  }
+  .cc {
+    color: purple;
+  }
+  
+  .other {
+    color: blue;
+  }
+
+  .scrollable-content {
+    overflow-y: auto;
+    height: 100vh; 
+  }
+  

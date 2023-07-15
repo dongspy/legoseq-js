@@ -3,10 +3,9 @@ import {Navigate,useRoutes} from 'react-router-dom'
 import PublicLayout from '../layout/index'
 import Home from '../view/home'
 import Login from '../view/login/login'
-import AreaChartOutlined from '../view/bigdata'
-import Tabblepage from '../view/superform/Tabblepage'
-import Tabble from '../view/superform/Tabble'
-import LegoSeq from "../view/legoseq2"
+import {default as LegoSeq2}  from "../view/legoseq2"
+import LegoSeq from "../view/legoseq"
+
 
 const routes = [
   {
@@ -29,13 +28,9 @@ const routes = [
         element: <LegoSeq />
       },
       {
-        path: '/tabble/Page',
-        element: <Tabblepage />
+        path: '/legoseq2',
+        element: <LegoSeq2 />
       },
-      {
-        path: '/tabble/basic',
-        element: <Tabble />
-      }
     ]
   },
   {
